@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ub-website/static/css/main.f421f82a.css",
+    "main.js": "/ub-website/static/js/main.d167be67.js",
+    "index.html": "/ub-website/index.html",
+    "main.f421f82a.css.map": "/ub-website/static/css/main.f421f82a.css.map",
+    "main.d167be67.js.map": "/ub-website/static/js/main.d167be67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f421f82a.css",
+    "static/js/main.d167be67.js"
+  ]
+}
