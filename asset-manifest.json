@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ub-website/static/css/main.ab445b1e.css",
-    "main.js": "/ub-website/static/js/main.a6494f86.js",
+    "main.css": "/ub-website/static/css/main.48c05986.css",
+    "main.js": "/ub-website/static/js/main.fbb38ca9.js",
     "static/media/hero-banner.jpg": "/ub-website/static/media/hero-banner.7b5925f1769b5b659b86.jpg",
     "static/media/newsletter-bg.jpg": "/ub-website/static/media/newsletter-bg.6e9228f8b12db1564cb2.jpg",
     "static/media/section-wrapper-bg.jpg": "/ub-website/static/media/section-wrapper-bg.1f1df7c051ee62e7ca5c.jpg",
@@ -12,11 +12,11 @@
     "static/media/REFAULT.woff2": "/ub-website/static/media/REFAULT.36418e2b9285ef9a331f.woff2",
     "static/media/logo.svg": "/ub-website/static/media/logo.05df89aca3c8bf7f1dcad103447da4ed.svg",
     "index.html": "/ub-website/index.html",
-    "main.ab445b1e.css.map": "/ub-website/static/css/main.ab445b1e.css.map",
-    "main.a6494f86.js.map": "/ub-website/static/js/main.a6494f86.js.map"
+    "main.48c05986.css.map": "/ub-website/static/css/main.48c05986.css.map",
+    "main.fbb38ca9.js.map": "/ub-website/static/js/main.fbb38ca9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab445b1e.css",
-    "static/js/main.a6494f86.js"
+    "static/css/main.48c05986.css",
+    "static/js/main.fbb38ca9.js"
   ]
 }
