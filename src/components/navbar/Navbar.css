@@ -18,6 +18,8 @@
 
 .header-actions { display: none; }
 
+.header .logo img { max-width: 120px; }
+
 .nav-open-btn {
     color: var(--white);
     font-size: 40px;
@@ -254,6 +256,8 @@ transform: translateX(15px);
 
 @media (min-width: 1200px) {
 
-    .navbar-link { padding-block: 45px; }
+  .header .logo img { max-width: unset; }
+
+  .navbar-link { padding-block: 45px; }
 
 }

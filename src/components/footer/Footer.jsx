@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import logo from'../../assets/images/logo.svg'
+import logo from'../../assets/images/ub-logo.svg'
 import footerBottomImg from'../../assets/images/footer-bottom-img.png'
 
 function Footer() {

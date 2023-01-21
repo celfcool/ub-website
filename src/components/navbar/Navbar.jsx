@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logo from'../../assets/images/logo.svg';
+import logo from'../../assets/images/ub-logo.svg';
 
 function Navbar() {
   return (
