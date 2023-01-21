@@ -14,15 +14,15 @@ import member11 from'../../assets/images/team-member-11.png'
 
 function Team() {
   return (
-    <section class="team" id="team">
-        <div class="container">
+    <section className="team" id="team">
+        <div className="container">
 
-        <h2 class="h2 section-title">Active Team Members</h2>
+        <h2 className="h2 section-title">Active Team Members</h2>
 
-        <ul class="team-list">
+        <ul className="team-list">
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member1} alt="Team member image" />
                 </figure>
@@ -32,7 +32,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member2} alt="Team member image" />
                 </figure>
@@ -42,7 +42,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member3} alt="Team member image" />
                 </figure>
@@ -52,7 +52,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member4} alt="Team member image" />
                 </figure>
@@ -62,7 +62,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member5} alt="Team member image" />
                 </figure>
@@ -72,7 +72,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member6} alt="Team member image" />
                 </figure>
@@ -82,7 +82,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member7} alt="Team member image" />
                 </figure>
@@ -92,7 +92,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member8} alt="Team member image" />
                 </figure>
@@ -102,7 +102,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member9}  alt="Team member image" />
                 </figure>
@@ -112,7 +112,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member10}  alt="Team member image" />
                 </figure>
@@ -122,7 +122,7 @@ function Team() {
             </li>
 
             <li>
-            <a href="#" class="team-member">
+            <a href="#" className="team-member">
                 <figure>
                 <img src={member11}  alt="Team member image" />
                 </figure>
@@ -133,7 +133,7 @@ function Team() {
 
         </ul>
 
-        <button class="btn btn-primary">view all members</button>
+        <button className="btn btn-primary">view all members</button>
 
         </div>
     </section>

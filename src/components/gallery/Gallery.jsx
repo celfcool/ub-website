@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect }  from 'react'
 import './Gallery.css'
 import gallery1 from'../../assets/images/gallery-img-1.jpg'
 import gallery2 from'../../assets/images/gallery-img-2.jpg'
@@ -6,36 +6,27 @@ import gallery3 from'../../assets/images/gallery-img-3.jpg'
 import gallery4 from'../../assets/images/gallery-img-4.jpg'
 
 function Gallery() {
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    const importedImages = [gallery1, gallery2, gallery3, gallery4];
+    setImages(importedImages);
+  }, [])
+  
   return (
     <>
-        <section class="gallery">
-          <div class="container">
+        <section className="gallery">
+          <div className="container">
 
-            <ul class="gallery-list has-scrollbar">
+            <ul className="gallery-list has-scrollbar">
 
-              <li>
-                <figure class="gallery-item">
-                  <img src={gallery1} alt="Gallery image" />
-                </figure>
-              </li>
-
-              <li>
-                <figure class="gallery-item">
-                  <img src={gallery2} alt="Gallery image" />
-                </figure>
-              </li>
-
-              <li>
-                <figure class="gallery-item">
-                  <img src={gallery3} alt="Gallery image" />
-                </figure>
-              </li>
-
-              <li>
-                <figure class="gallery-item">
-                  <img src={gallery4} alt="Gallery image" />
-                </figure>
-              </li>
+              {images.map((image, index) => (
+                <li key={index}>
+                  <figure className="gallery-item">
+                    <img src={image} alt="Gallery image" />
+                  </figure>
+                </li>
+              ))}
 
             </ul>
 

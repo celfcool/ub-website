@@ -9,33 +9,33 @@ import Char3 from'../../assets/images/character-3.png'
 function About() {
   return (
     <>
-        <section class="about" id="about">
-            <div class="container">
-                <figure class="about-banner">
+        <section className="about" id="about">
+            <div className="container">
+                <figure className="about-banner">
 
-                    <img src={AboutImg} alt="M shape" class="about-img" />
+                    <img src={AboutImg} alt="M shape" className="about-img" />
 
-                    <img src={Char1} alt="Game character" class="character character-1" />
+                    <img src={Char1} alt="Game character" className="character character-1" />
 
-                    <img src={Char2} alt="Game character" class="character character-2" />
+                    <img src={Char2} alt="Game character" className="character character-2" />
 
-                    <img src={Char3} alt="Game character" class="character character-3" />
+                    <img src={Char3} alt="Game character" className="character character-3" />
 
                 </figure>
 
-                <div class="about-content">
+                <div className="about-content">
 
-                    <p class="about-subtitle">Find team member</p>
+                    <p className="about-subtitle">Find team member</p>
 
-                    <h2 class="about-title">Experience just for gamers <strong>offer</strong> </h2>
+                    <h2 className="about-title">Experience just for gamers <strong>offer</strong> </h2>
 
-                    <p class="about-text">
+                    <p className="about-text">
                         Nullam quis ante. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum
                         viverra felis nunc
                         et lorem. In auctor lobortis lacus. Phasellus gravida semper nisi. Aliquam lobortis.
                     </p>
 
-                    <p class="about-bottom-text">
+                    <p className="about-bottom-text">
                         <ion-icon name="arrow-forward-circle-outline"></ion-icon>
 
                         <span>Will sharpen your brain and focus</span>
