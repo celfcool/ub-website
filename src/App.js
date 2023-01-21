@@ -3,6 +3,8 @@ import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
 import SectionWrapper from './components/section-wrapper/SectionWrapper'
 import About from './components/about/About'
+import Gallery from './components/gallery/Gallery'
+import Team from './components/team/Team'
 import Footer from './components/footer/Footer'
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
       <Hero />
       <SectionWrapper>
         <About />
+        <Gallery />
+        <Team />
       </SectionWrapper>
       <Footer />
       
