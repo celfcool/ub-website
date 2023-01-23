@@ -6,6 +6,7 @@ import About from './components/about/About'
 import Gallery from './components/gallery/Gallery'
 import Team from './components/team/Team'
 import Footer from './components/footer/Footer'
+import GoToTop from './components/go-to-top/GoToTop'
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
         <Team />
       </SectionWrapper>
       <Footer />
-      
+      <GoToTop />
     </>
   )
 }
