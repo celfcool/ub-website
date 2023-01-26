@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ub-website/static/css/main.b7d4a248.css",
-    "main.js": "/ub-website/static/js/main.106ffc77.js",
-    "static/media/hero-banner.jpg": "/ub-website/static/media/hero-banner.7b5925f1769b5b659b86.jpg",
+    "main.css": "/ub-website/static/css/main.f20ef2b5.css",
+    "main.js": "/ub-website/static/js/main.b34395bf.js",
+    "static/media/hero-img.png": "/ub-website/static/media/hero-img.6e3c96be3b2420f29ca6.png",
     "static/media/gallery-img-2.jpg": "/ub-website/static/media/gallery-img-2.e4ed0b4caf1e0dfc0617.jpg",
     "static/media/gallery-img-3.jpg": "/ub-website/static/media/gallery-img-3.7104f530e060db26921b.jpg",
     "static/media/gallery-img-1.jpg": "/ub-website/static/media/gallery-img-1.3dced094e28741a4ec4b.jpg",
@@ -16,6 +16,7 @@
     "static/media/ub-logo.svg": "/ub-website/static/media/ub-logo.aa0ee08c64f87f5f951771fb02c605bf.svg",
     "static/media/character-3.png": "/ub-website/static/media/character-3.cf9898dc24cf6a9f57a4.png",
     "static/media/REFAULT.woff": "/ub-website/static/media/REFAULT.66c5469c40ab7f5d1cfc.woff",
+    "static/media/Robot-Crush.ttf": "/ub-website/static/media/Robot-Crush.81cf9ac13c3fe41fdbc2.ttf",
     "static/media/character-1.png": "/ub-website/static/media/character-1.4eed79cbc8c66e4cc895.png",
     "static/media/team-member-3.png": "/ub-website/static/media/team-member-3.90bbfe2830ea8d7a7716.png",
     "static/media/REFAULT.woff2": "/ub-website/static/media/REFAULT.36418e2b9285ef9a331f.woff2",
@@ -27,11 +28,11 @@
     "static/media/team-member-11.png": "/ub-website/static/media/team-member-11.3fcde98cd54a098a91f9.png",
     "static/media/team-member-4.png": "/ub-website/static/media/team-member-4.8585048edce9b35e5e64.png",
     "index.html": "/ub-website/index.html",
-    "main.b7d4a248.css.map": "/ub-website/static/css/main.b7d4a248.css.map",
-    "main.106ffc77.js.map": "/ub-website/static/js/main.106ffc77.js.map"
+    "main.f20ef2b5.css.map": "/ub-website/static/css/main.f20ef2b5.css.map",
+    "main.b34395bf.js.map": "/ub-website/static/js/main.b34395bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7d4a248.css",
-    "static/js/main.106ffc77.js"
+    "static/css/main.f20ef2b5.css",
+    "static/js/main.b34395bf.js"
   ]
 }
