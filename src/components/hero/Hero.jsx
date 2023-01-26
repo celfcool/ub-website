@@ -7,9 +7,21 @@ function Hero() {
       <section className="hero" id="hero">
         <div className="container">
 
+          <h1 className="h1 hero-title">ub team</h1>
+
+          <p className="hero-subtitle">Victoria es nuestra única opción</p>
+
+        </div>
+      </section>
+    </>
+    /*
+     <>
+      <section className="hero" id="hero">
+        <div className="container">
+
           <p className="hero-subtitle">The Season 8</p>
 
-          <h1 className="h1 hero-title">Steam</h1>
+          <h1 className="h1 hero-title">UB</h1>
 
           <div className="btn-group">
 
@@ -26,6 +38,7 @@ function Hero() {
         </div>
       </section>
     </>
+    */
   )
 }
 

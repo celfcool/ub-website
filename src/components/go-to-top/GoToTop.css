@@ -18,5 +18,5 @@
   
   .go-top:is(:hover, :focus) {
     background: var(--white);
-    color: var(--orange);
+    color: var(--brand-red);
   }
