@@ -10,10 +10,17 @@ function GoToTop() {
             setActive('')
         }
     })
+    const handleClick = () => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth"
+        })
+    }
   return (
-    <a href="#top" className={`btn btn-primary go-top ${active}`} data-go-top>
+    <button onClick={handleClick} className={`btn btn-primary go-top ${active}`} data-go-top>
         <ion-icon name="chevron-up-outline"></ion-icon>
-    </a>
+    </button>
   )
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom';
 import logo from'../../assets/images/ub-logo.svg';
 
 function Navbar() {
@@ -11,9 +12,9 @@ function Navbar() {
 
             <div className="container">
 
-                <a href="#" className="logo">
+                <Link to="/" className="logo">
                     <img src={logo} alt="GameX logo" />
-                </a>
+                </Link>
                 
                 <button className="nav-open-btn" data-nav-open-btn>
                     <ion-icon name="menu-outline"></ion-icon>
@@ -23,41 +24,47 @@ function Navbar() {
 
                     <div className="navbar-top">
 
-                    <a href="#" className="logo">
-                        <img src={logo} alt="GameX logo" />
-                    </a>
+                        <Link to="/" className="logo">
+                            <img src={logo} alt="GameX logo" />
+                        </Link>
 
-                    <button className="nav-close-btn" data-nav-close-btn>
-                        <ion-icon name="close-outline"></ion-icon>
-                    </button>
+                        <button className="nav-close-btn" data-nav-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
 
                     </div>
 
                     <ul className="navbar-list">
 
-                    <li>
-                        <a href="#hero" className="navbar-link">Home</a>
-                    </li>
+                        <li>
+                            <Link to="/" className="navbar-link">
+                                Home
+                            </Link>
+                        </li>
 
-                    <li>
-                        <a href="#about" className="navbar-link">About</a>
-                    </li>
+                        <li>
+                            <Link to="/" className="navbar-link">
+                                About
+                            </Link>
+                        </li>
 
-                    <li>
-                        <a href="#tournament" className="navbar-link">Tournament</a>
-                    </li>
+                        <li>
+                            <Link to="/" className="navbar-link">
+                                Tournaments
+                            </Link>
+                        </li>
 
-                    <li>
-                        <a href="#team" className="navbar-link">Team</a>
-                    </li>
+                        <li>
+                            <Link to="/team" className="navbar-link">
+                                Team
+                            </Link>
+                        </li>
 
-                    <li>
-                        <a href="#gears" className="navbar-link">Gears</a>
-                    </li>
-
-                    <li>
-                        <a href="#contact" className="navbar-link">Contact</a>
-                    </li>
+                        <li>
+                            <Link to="/" className="navbar-link">
+                                Contact
+                            </Link>
+                        </li>
 
                     </ul>
 
@@ -90,24 +97,6 @@ function Navbar() {
                     </ul>
 
                 </nav>
-
-                <div className="header-actions">
-
-                    <button className="search">
-                        <ion-icon name="search-outline"></ion-icon>
-                    </button>
-
-                    <button className="btn-sign_in">
-
-                    <div className="icon-box">
-                        <ion-icon name="log-in-outline"></ion-icon>
-                    </div>
-
-                    <span>Log-in</span>
-
-                    </button>
-
-                </div>
 
             </div>
 
