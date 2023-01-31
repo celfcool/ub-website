@@ -1,75 +1,59 @@
-import React from 'react'
-import './Navbar.css'
+import React, { useState } from 'react';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 import logo from'../../assets/images/ub-logo.svg';
 
 function Navbar() {
+  const [navOpen, setNavOpen] = useState(false);
+
+  const handleNavOpen = () => setNavOpen(true);
+  const handleNavClose = () => setNavOpen(false);
+
   return (
-    <>
-        <header className="header">
+    <header className="header">
+        <div className={`overlay ${navOpen ? 'active' : ''}`} onClick={handleNavClose}></div>
 
-            <div className="overlay" data-overlay></div>
+        <div className="container">
+            <Link to="/" className="logo">
+                <img src={logo} alt="GameX logo" />
+            </Link>
 
-            <div className="container">
+            <button className="nav-open-btn" onClick={handleNavOpen}>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <nav className={`navbar ${navOpen ? 'active' : ''}`}>
+                <div className="navbar-top">
 
                 <Link to="/" className="logo">
                     <img src={logo} alt="GameX logo" />
                 </Link>
-                
-                <button className="nav-open-btn" data-nav-open-btn>
-                    <ion-icon name="menu-outline"></ion-icon>
+
+                <button className="nav-close-btn" onClick={handleNavClose}>
+                    <ion-icon name="close-outline"></ion-icon>
                 </button>
 
-                <nav className="navbar" data-nav>
+                </div>
 
-                    <div className="navbar-top">
+                <ul className="navbar-list">
+                    <li>
+                        <Link to="/" className="navbar-link">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/" className="navbar-link">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/" className="navbar-link">Tournaments</Link>
+                    </li>
+                    <li>
+                        <Link to="/team" className="navbar-link">Team</Link>
+                    </li>
+                    <li>
+                        <Link to="/" className="navbar-link">Contact</Link>
+                    </li>
+                </ul>
 
-                        <Link to="/" className="logo">
-                            <img src={logo} alt="GameX logo" />
-                        </Link>
-
-                        <button className="nav-close-btn" data-nav-close-btn>
-                            <ion-icon name="close-outline"></ion-icon>
-                        </button>
-
-                    </div>
-
-                    <ul className="navbar-list">
-
-                        <li>
-                            <Link to="/" className="navbar-link">
-                                Home
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to="/" className="navbar-link">
-                                About
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to="/" className="navbar-link">
-                                Tournaments
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to="/team" className="navbar-link">
-                                Team
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link to="/" className="navbar-link">
-                                Contact
-                            </Link>
-                        </li>
-
-                    </ul>
-
-                    <ul className="nav-social-list">
-
+                <ul className="nav-social-list">
                     <li>
                         <a href="#" className="social-link">
                         <ion-icon name="logo-twitter"></ion-icon>
@@ -93,15 +77,10 @@ function Navbar() {
                         <ion-icon name="logo-youtube"></ion-icon>
                         </a>
                     </li>
-
-                    </ul>
-
-                </nav>
-
-            </div>
-
-        </header>
-    </>
+                </ul>
+            </nav>
+        </div>
+    </header>
   )
 }
 
