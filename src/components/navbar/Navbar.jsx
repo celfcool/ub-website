@@ -40,16 +40,16 @@ function Navbar() {
                         <Link to="/" className="navbar-link">Home</Link>
                     </li>
                     <li>
-                        <Link to="/" className="navbar-link">About</Link>
+                        <Link to="/about" className="navbar-link">About</Link>
                     </li>
                     <li>
-                        <Link to="/" className="navbar-link">Tournaments</Link>
+                        <Link to="/tournaments" className="navbar-link">Tournaments</Link>
                     </li>
                     <li>
                         <Link to="/team" className="navbar-link">Team</Link>
                     </li>
                     <li>
-                        <Link to="/" className="navbar-link">Contact</Link>
+                        <Link to="/contact" className="navbar-link">Contact</Link>
                     </li>
                 </ul>
 
