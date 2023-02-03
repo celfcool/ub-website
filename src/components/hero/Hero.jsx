@@ -9,7 +9,7 @@ function Hero() {
 
           <h1 className="h1 hero-title">ub team</h1>
 
-          <p className="hero-subtitle">Victoria es nuestra única opción</p>
+          <p className="hero-subtitle">Victory is our only option</p>
 
         </div>
       </section>

@@ -139,6 +139,8 @@
       margin-inline: 0;
       margin-bottom: 0;
     }
+
+    .about-img { max-height: 450px; }
   
     .character-2 {
       left: 155px;

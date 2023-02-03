@@ -25,7 +25,7 @@ function Navbar() {
             <nav className={`navbar ${navOpen ? 'active' : ''}`}>
                 <div className="navbar-top">
 
-                <Link to="/" className="logo">
+                <Link to="/" className="logo" onClick={handleNavClose}>
                     <img src={logo} alt="GameX logo" />
                 </Link>
 
@@ -37,19 +37,19 @@ function Navbar() {
 
                 <ul className="navbar-list">
                     <li>
-                        <Link to="/" className="navbar-link">Home</Link>
+                        <Link to="/" className="navbar-link" onClick={handleNavClose}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/about" className="navbar-link">About</Link>
+                        <Link to="/about" className="navbar-link" onClick={handleNavClose}>About</Link>
                     </li>
                     <li>
-                        <Link to="/tournaments" className="navbar-link">Tournaments</Link>
+                        <Link to="/tournaments" className="navbar-link" onClick={handleNavClose}>Tournaments</Link>
                     </li>
                     <li>
-                        <Link to="/team" className="navbar-link">Team</Link>
+                        <Link to="/team" className="navbar-link" onClick={handleNavClose}>Team</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className="navbar-link">Contact</Link>
+                        <Link to="/contact" className="navbar-link" onClick={handleNavClose}>Contact</Link>
                     </li>
                 </ul>
 
