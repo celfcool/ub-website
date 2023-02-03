@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/ub-website/static/css/main.6524aa52.css",
-    "main.js": "/ub-website/static/js/main.c218d337.js",
+    "main.css": "/ub-website/static/css/main.ec2a6d51.css",
+    "main.js": "/ub-website/static/js/main.57ba3679.js",
     "static/media/hero-banner-5.png": "/ub-website/static/media/hero-banner-5.4306db173d7012081006.png",
     "static/media/gallery-img-2.jpg": "/ub-website/static/media/gallery-img-2.e4ed0b4caf1e0dfc0617.jpg",
+    "static/media/ub-logo-full.png": "/ub-website/static/media/ub-logo-full.af3203eea6809d5002ba.png",
     "static/media/gallery-img-3.jpg": "/ub-website/static/media/gallery-img-3.7104f530e060db26921b.jpg",
     "static/media/gallery-img-1.jpg": "/ub-website/static/media/gallery-img-1.3dced094e28741a4ec4b.jpg",
     "static/media/newsletter-bg.jpg": "/ub-website/static/media/newsletter-bg.6e9228f8b12db1564cb2.jpg",
@@ -12,12 +13,9 @@
     "static/media/REFAULT.ttf": "/ub-website/static/media/REFAULT.08580898add22381d0cf.ttf",
     "static/media/about-img-shadow.png": "/ub-website/static/media/about-img-shadow.1e6eb8caef8de6288e44.png",
     "static/media/footer-bg.jpg": "/ub-website/static/media/footer-bg.97659c6d6c5e9c4e9186.jpg",
-    "static/media/character-2.png": "/ub-website/static/media/character-2.cdd1639dba42d95d1535.png",
     "static/media/ub-logo.svg": "/ub-website/static/media/ub-logo.aa0ee08c64f87f5f951771fb02c605bf.svg",
-    "static/media/character-3.png": "/ub-website/static/media/character-3.cf9898dc24cf6a9f57a4.png",
     "static/media/REFAULT.woff": "/ub-website/static/media/REFAULT.66c5469c40ab7f5d1cfc.woff",
     "static/media/Robot-Crush.ttf": "/ub-website/static/media/Robot-Crush.81cf9ac13c3fe41fdbc2.ttf",
-    "static/media/character-1.png": "/ub-website/static/media/character-1.4eed79cbc8c66e4cc895.png",
     "static/media/team-member-3.png": "/ub-website/static/media/team-member-3.90bbfe2830ea8d7a7716.png",
     "static/media/REFAULT.woff2": "/ub-website/static/media/REFAULT.36418e2b9285ef9a331f.woff2",
     "static/media/team-member-8.png": "/ub-website/static/media/team-member-8.c62bf39eb1f54eb85e83.png",
@@ -26,11 +24,11 @@
     "static/media/team-member-6.png": "/ub-website/static/media/team-member-6.17833ab47462dacda8fb.png",
     "static/media/team-member-4.png": "/ub-website/static/media/team-member-4.8585048edce9b35e5e64.png",
     "index.html": "/ub-website/index.html",
-    "main.6524aa52.css.map": "/ub-website/static/css/main.6524aa52.css.map",
-    "main.c218d337.js.map": "/ub-website/static/js/main.c218d337.js.map"
+    "main.ec2a6d51.css.map": "/ub-website/static/css/main.ec2a6d51.css.map",
+    "main.57ba3679.js.map": "/ub-website/static/js/main.57ba3679.js.map"
   },
   "entrypoints": [
-    "static/css/main.6524aa52.css",
-    "static/js/main.c218d337.js"
+    "static/css/main.ec2a6d51.css",
+    "static/js/main.57ba3679.js"
   ]
 }
