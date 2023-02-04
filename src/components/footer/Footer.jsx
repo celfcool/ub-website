@@ -37,22 +37,10 @@ function Footer() {
                         </li>
 
                         <li>
-                            <a href="#gears" className="footer-menu-link">Gears</a>
-                        </li>
-
-                        <li>
                             <a href="#" className="footer-menu-link">Contact</a>
                         </li>
 
                         </ul>
-
-                        <div className="footer-input-wrapper">
-                        <input type="text" name="message" required placeholder="Find Here Now" className="footer-input" />
-
-                        <button className="btn btn-primary">
-                            <ion-icon name="search-outline"></ion-icon>
-                        </button>
-                        </div>
 
                     </div>
 
@@ -115,12 +103,8 @@ function Footer() {
             <div className="footer-bottom">
                 <div className="container">
                     <p className="copyright">
-                    Copyright &copy; 2022 <a href="#">codewithsadee</a>. all rights reserved
+                    Copyright &copy; 2023 <a href="#">ubteam</a>. all rights reserved
                     </p>
-
-                    <figure className="footer-bottom-img">
-                    <img src={footerBottomImg} />
-                    </figure>
                 </div>
             </div>
         </footer>
