@@ -3,7 +3,7 @@ import './SectionWrapper.css'
 
 function SectionWrapper(props) {
   return (
-    <div className='section-wrapper'>
+    <div  className="section-wrapper">
         {props.children}
     </div>
   )
